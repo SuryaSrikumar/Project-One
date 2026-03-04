@@ -1,0 +1,1090 @@
+00:06 Kumar. I'm a student in management 490
+00:08 
+
+00:08 and this is my progress on DCF lens pro.
+00:11 
+
+00:11 Essentially this is a DCF program in
+00:13 
+
+00:13 which you can input a ticker and using
+00:15 
+
+00:15 that ticker it'll draw in financial data
+00:17 
+
+00:17 from the three APIs that I have which
+00:19 
+
+00:19 are claude openai and advantage which is
+00:21 
+
+00:21 a financial database. Um, and using that
+00:24 
+
+00:24 it'll do a whole discounted cash flow
+00:26 
+
+00:26 based off what it inputs which is like
+00:28 
+
+00:28 the weighted average cost capital, the
+00:30 
+
+00:30 terminal growth rate and all of that.
+00:32 
+
+00:32 Um, and it's a working demo so that you
+00:35 
+
+00:35 can change all the sliders and you'll
+00:36 
+
+00:36 see a different value. So the real
+00:38 
+
+00:38 question is why is this important? This
+00:40 
+
+00:40 is important because it's really hard to
+00:42 
+
+00:42 find financial data in one place due to
+00:44 
+
+00:44 the massive amounts of misinformation on
+00:46 
+
+00:46 it and the massive amount of hurdles you
+00:48 
+
+00:48 even have to go through to get this
+00:49 
+
+00:49 data. I had to go through three
+00:50 
+
+00:50 different APIs just to even make an app
+00:52 
+
+00:52 like this. So imagine how hard it is if
+00:54 
+
+00:54 you wanted to do this for multiple
+00:55 
+
+00:55 companies. So essentially we created
+00:57 
+
+00:57 this one-stop shop where you can just
+00:59 
+
+00:59 type in the ticker such as AAPL and
+01:02 
+
+01:02 using that ticker it'll give you the
+01:03 
+
+01:03 financial data of the company. One
+01:05 
+
+01:05 important thing to note is this was
+01:07 
+
+01:07 created using anti-gravity and claude.
+01:09 
+
+01:09 So once I typed in AAPL, that's the
+01:11 
+
+01:11 ticker. We get Apple. And this is kind
+01:13 
+
+01:13 of where I'm going to run through a demo
+01:14 
+
+01:14 of how this program works. So at the top
+01:17 
+
+01:17 you see it has a bunch of current data.
+01:19 
+
+01:19 um about Apple which is its share price
+01:21 
+
+01:21 175 its revenue which is around 400
+01:24 
+
+01:24 billion it bit margin which is a lot its
+01:26 
+
+01:26 beta and its threeyear caggr and again
+01:29 
+
+01:29 it's all a lot of that is really
+01:31 
+
+01:31 successful because Apple's a growing
+01:32 
+
+01:32 company it has a long-standing consumer
+01:34 
+
+01:34 base and it releases products every year
+01:36 
+
+01:36 right so you expect it to be a growing
+01:38 
+
+01:38 stock um even though it does have its
+01:40 
+
+01:40 downturns so here you get into the DCF
+01:43 
+
+01:43 uh or its intrinsic value and you kind
+01:45 
+
+01:45 of see that it's $125 when shares
+01:48 
+
+01:48 trading trading at 175. So, you know
+01:50 
+
+01:50 that it's overvalued by 28%. So, it's
+01:52 
+
+01:52 not the best thing to invest in, but
+01:54 
+
+01:54 that's projecting for a 5-year
+01:56 
+
+01:56 projection. So, maybe in the short term,
+01:58 
+
+01:58 maybe if it was a one-year projection,
+01:60 
+
+02:00 it could be a little better. But here we
+02:02 
+
+02:02 have the the statistics is how it's
+02:04 
+
+02:04 calculated. If you look at the bottom,
+02:05 
+
+02:05 it'll tell you into everything. you get
+02:07 
+
+02:07 the present value of the cash flow, the
+02:08 
+
+02:08 terminal value, which you add up to get
+02:10 
+
+02:10 the enterprise value, and using that
+02:12 
+
+02:12 plus its cash minus its debt, you get
+02:14 
+
+02:14 the equity value divided by the amount
+02:16 
+
+02:16 of shares it's trading, and that gets
+02:17 
+
+02:17 you $125 per share. So, you can look up
+02:19 
+
+02:19 here, it's current price, it's 175,
+02:21 
+
+02:21 enterprise value, 2.1 trillion, equity
+02:24 
+
+02:24 value, 2.01 trillion. Again, those are
+02:27 
+
+02:27 all the inputs that I just read to you
+02:28 
+
+02:28 down here below. And with that you can
+02:31 
+
+02:31 calculate the margin of safety which is
+02:32 
+
+02:32 just essentially the estimated price
+02:35 
+
+02:35 that we're giving you minus the current
+02:36 
+
+02:36 price divided by the current price. So
+02:39 
+
+02:39 below that here are a bunch of other
+02:40 
+
+02:40 valuation statistics. There's the
+02:42 
+
+02:42 enterprise value, equity value,
+02:43 
+
+02:43 intrinsic value, analyst target. So that
+02:46 
+
+02:46 kind of tells you that the the that's
+02:47 
+
+02:47 what you want to target to trade the
+02:49 
+
+02:49 share at. Um it's going to go up to 190.
+02:52 
+
+02:52 So that's a much better price on return
+02:54 
+
+02:54 for your share, right?
+02:56 
+
+02:56 uh its intrinsic value is like how it's
+02:58 
+
+02:58 actually being outlated to the consumer.
+03:00 
+
+03:00 The value you're getting at a share you
+03:02 
+
+03:02 buy for 175 is 125. Um and then equity
+03:05 
+
+03:05 and enterprise value we'll get on to a
+03:07 
+
+03:07 little bit later, but equity is
+03:08 
+
+03:08 essentially um your enterprise value
+03:10 
+
+03:10 plus cash minus your debt. And the
+03:12 
+
+03:12 enterprise value is your financial cash
+03:14 
+
+03:14 flow divided by or uh plus your terminal
+03:17 
+
+03:17 value sorry. Then below this we get to
+03:19 
+
+03:19 the actual weighted average cost of
+03:21 
+
+03:21 capital which is the important thing. It
+03:23 
+
+03:23 shows you the value of the company which
+03:24 
+
+03:24 is the present value of your financial
+03:26 
+
+03:26 cash flows plus your terminal value
+03:28 
+
+03:28 which is essentially your first future
+03:29 
+
+03:29 value and that gets you what it is in
+03:32 
+
+03:32 your total value. So at the bottom we
+03:33 
+
+03:33 see terminal value is 79% of your total
+03:36 
+
+03:36 EV. So in this case terminal value is
+03:38 
+
+03:38 79% of your total expected value. Then
+03:40 
+
+03:40 here we have the projected cash flow.
+03:42 
+
+03:42 The logic is pretty simple. You go
+03:44 
+
+03:44 through your projected financial cash
+03:46 
+
+03:46 flows and then you discount them. And
+03:47 
+
+03:47 then your terminal present value is just
+03:49 
+
+03:49 the addition of all your discounted
+03:51 
+
+03:51 present values. And again, it's
+03:52 
+
+03:52 discounted using stuff like tax rate,
+03:54 
+
+03:54 which is hardcoded if you look at the
+03:56 
+
+03:56 WACCC breakdown. So, anything it's uh
+03:58 
+
+03:58 discounted by is hardcoded or assumed in
+04:01 
+
+04:01 the bottom part here, and you can change
+04:02 
+
+04:02 it. Same for the projected financial
+04:04 
+
+04:04 cash flow. It's calculated by using the
+04:06 
+
+04:06 assumptions and the hard-coded numbers
+04:07 
+
+04:07 right over there. So, here we have the
+04:09 
+
+04:09 weighted average cost of capital at 8%,
+04:11 
+
+04:11 the revenue growth rate at 7%, terminal
+04:13 
+
+04:13 growth at 2.5, and projection years at
+04:16 
+
+04:16 5%. And obviously, we can change that.
+04:18 
+
+04:18 Scroll down even more. We have that
+04:20 
+
+04:20 sensitivity analysis that we talked
+04:21 
+
+04:21 about. This gives you the wide array of
+04:23 
+
+04:23 results. It essentially is a heat map uh
+04:25 
+
+04:25 in a matrix. So if the top side is the
+04:27 
+
+04:27 weighted average cost of capital, the
+04:29 
+
+04:29 bottom side is the growth rate. Uh you
+04:30 
+
+04:30 can get your bull base and barrier to
+04:32 
+
+04:32 kind of see the range of what you would
+04:34 
+
+04:34 trade if this is your cost of capital.
+04:36 
+
+04:36 And if you can accurately get a a
+04:38 
+
+04:38 prediction on the growth rate, this is
+04:40 
+
+04:40 within two confidence intervals. So if
+04:42 
+
+04:42 you set your growth rate at 7%, you'll
+04:44 
+
+04:44 see for 9% and 5% and it's similar for
+04:46 
+
+04:46 the weighted average cost of capital.
+04:48 
+
+04:48 Then at the bottom over here, it's also
+04:50 
+
+04:50 a similar just a financial summary of
+04:52 
+
+04:52 everything that we discussed about
+04:53 
+
+04:53 before. So that was kind of a little
+04:54 
+
+04:54 demo of what it's like on um on just
+04:58 
+
+04:58 like a base when you go into the app and
+04:59 
+
+04:59 edit the ticker. So now let's actually
+05:01 
+
+05:01 go into the nitty-gritty. Let's talk
+05:02 
+
+05:02 about the weighted average cost of
+05:04 
+
+05:04 capital. Okay, so to calculate the
+05:06 
+
+05:06 weighted average cost of capital, it's
+05:07 
+
+05:07 equity divided by value times the cost
+05:10 
+
+05:10 of equity uh plus debt divided by value
+05:12 
+
+05:12 times the cost of debt um times one
+05:14 
+
+05:14 minus the tax rate. So that's kind of
+05:16 
+
+05:16 the formula that it's labeled right up
+05:17 
+
+05:17 here. And I'm going to break down all
+05:19 
+
+05:19 the inputs into it. So the first is the
+05:21 
+
+05:21 risk-free rate, which is essentially the
+05:23 
+
+05:23 risk or the rate that the investors
+05:24 
+
+05:24 expect back when they invest into
+05:26 
+
+05:26 anything. Um it's called the risk-free
+05:28 
+
+05:28 rate because essentially that's what you
+05:30 
+
+05:30 want to get back. Uh we chose 4.5%
+05:33 
+
+05:33 because that's like the base yield um of
+05:35 
+
+05:35 a good investment, right? I in a safe
+05:38 
+
+05:38 company like Apple, which has a large
+05:39 
+
+05:39 consumer base, you know, you don't have
+05:41 
+
+05:41 to worry about it flopping. you expect
+05:42 
+
+05:42 it to appreciate at a similar value to
+05:44 
+
+05:44 stuff like treasury bonds, which is why
+05:46 
+
+05:46 we chose 4.5% because treasury bonds are
+05:48 
+
+05:48 uh 4% I believe. So, we expect Apple to
+05:51 
+
+05:51 be a little better than a Treasury bond.
+05:53 
+
+05:53 Um, and it's a pretty safe investment.
+05:54 
+
+05:54 So, it's risk-f free rate doesn't expect
+05:56 
+
+05:56 to be much lower. Then the second tab
+05:58 
+
+05:58 over there is the equity risk premium,
+05:60 
+
+05:60 which is at 5%. And so, this is kind of
+06:01 
+
+06:01 like the um
+06:04 
+
+06:04 essentially just like the return of
+06:05 
+
+06:05 investment uh your investors expect to
+06:08 
+
+06:08 get in a volatile market. Um, and so you
+06:11 
+
+06:11 expect it to be a little higher than the
+06:13 
+
+06:13 risk-free rate. So here to get this, we
+06:16 
+
+06:16 did it a little bit different. We looked
+06:17 
+
+06:17 at the type of industry Apple's in,
+06:18 
+
+06:18 which is obviously tech. Um, and using
+06:21 
+
+06:21 that, we did a 10-year analysis on tech.
+06:24 
+
+06:24 This is pretty available during Google,
+06:25 
+
+06:25 but it tells you that the equity risk
+06:27 
+
+06:27 premium lays between 4.5% and 6.5%. So
+06:30 
+
+06:30 instead of predicting an overly
+06:31 
+
+06:31 conservative or overly generous amount,
+06:33 
+
+06:33 we decided to split the middle and it's
+06:35 
+
+06:35 at 5.5%. The beta is how volatile the
+06:38 
+
+06:38 market or the the stock is compared to
+06:40 
+
+06:40 the market. So if it's at one, it's a
+06:42 
+
+06:42 perfectly stable stock. If it's a little
+06:44 
+
+06:44 bit less, it's less volatile. And if
+06:46 
+
+06:46 it's greater than one, it's very
+06:47 
+
+06:47 volatile. So at 1.2x, uh it seems a
+06:50 
+
+06:50 little bit weird to call Apple a very
+06:52 
+
+06:52 volatile stock, but that's just the
+06:53 
+
+06:53 nature of the tech industry, right? It's
+06:55 
+
+06:55 always going to be a little volatile.
+06:57 
+
+06:57 So, the way we actually calculated this
+06:58 
+
+06:58 was we looked at um companies like
+07:00 
+
+07:00 Samsung and Hulie and other tech
+07:02 
+
+07:02 industries um that have their
+07:04 
+
+07:04 information out there and we found their
+07:06 
+
+07:06 beta. Granted, 1.2% 1.2x is a little bit
+07:10 
+
+07:10 of an overestimate because Apple's a lot
+07:12 
+
+07:12 bigger than a lot of those companies.
+07:13 
+
+07:13 So, it doesn't have as much to be
+07:15 
+
+07:15 worried about, but there's a lot about
+07:17 
+
+07:17 financial turmoil um in the future that
+07:19 
+
+07:19 is a risk. So, we decided it wasn't
+07:21 
+
+07:21 going to be that bad if we predicted um
+07:23 
+
+07:23 Apple at a 1.20 beta. Then next is the
+07:26 
+
+07:26 cost of debt which is essentially the
+07:28 
+
+07:28 the rate the company pays back their
+07:30 
+
+07:30 borrowed interest in, right? Um 4% was a
+07:33 
+
+07:33 pretty easy number to stumble upon. Uh
+07:35 
+
+07:35 because it's just like the current base
+07:37 
+
+07:37 of uh the industry it is right now,
+07:41 
+
+07:41 right? Apple is a pretty large company.
+07:43 
+
+07:43 It doesn't have to take on a lot of debt
+07:44 
+
+07:44 for anything. So it's pretty simple to
+07:46 
+
+07:46 just leave it at 4% because we know that
+07:48 
+
+07:48 they can have a lot of cash backups to
+07:50 
+
+07:50 pay most of this stuff. Cash rate was
+07:52 
+
+07:52 easy. Capital cash tax cash rate was
+07:54 
+
+07:54 easy to calculate. It's just a stable
+07:56 
+
+07:56 21% because that's what it is for
+07:58 
+
+07:58 corporations of this size. Then the debt
+07:60 
+
+07:60 weight. Um, again, similar. We chose to
+08:03 
+
+08:03 go on the lower side of 20% because
+08:04 
+
+08:04 Apple can pay a lot of this stuff up.
+08:06 
+
+08:06 So, it doesn't have to take a lot of
+08:08 
+
+08:08 debt in. So, then at the bottom, you can
+08:10 
+
+08:10 finally see the number of weighted
+08:12 
+
+08:12 average cost capital. It's just the
+08:13 
+
+08:13 inputs here. They apply to the formula
+08:16 
+
+08:16 up here and you get your result. But you
+08:17 
+
+08:17 can always change it. So, if I want my
+08:19 
+
+08:19 weighted average cost of capital to be
+08:20 
+
+08:20 higher, it can go up to 8.5%. And I can
+08:22 
+
+08:22 edit. I can go up to 9.5%. and you'll
+08:24 
+
+08:24 see it'll change the values on the
+08:26 
+
+08:26 projected cash flow too which I'll talk
+08:27 
+
+08:27 about in a bit. So the second method
+08:29 
+
+08:29 that we wanted to talk about was the
+08:31 
+
+08:31 growth rate right? So um for this case
+08:33 
+
+08:33 we're going to do a terminal growth rate
+08:35 
+
+08:35 of 2%
+08:37 
+
+08:37 uh and then we can keep revenue growth
+08:39 
+
+08:39 rate at 7%. So first let's talk about
+08:41 
+
+08:41 the revenue growth rate. Right? This is
+08:42 
+
+08:42 more of your short-term growth rate. Um
+08:45 
+
+08:45 and the reason that we want it at 7% is
+08:48 
+
+08:48 because Apple's a pretty stable
+08:50 
+
+08:50 industry. But despite that, we know it's
+08:52 
+
+08:52 not going to be a super boom heavy
+08:53 
+
+08:53 industry because it focuses more on
+08:54 
+
+08:54 hardware than services. And services are
+08:56 
+
+08:56 what's growing in the tech industry. And
+08:59 
+
+08:59 naturally, the market is more mature.
+09:00 
+
+09:00 So, we know it's not going to be super
+09:01 
+
+09:01 high, but we also know it's not going to
+09:03 
+
+09:03 be super low. The estimation that we
+09:04 
+
+09:04 found on Google was 5 to 9%, we split
+09:07 
+
+09:07 the difference, we got 7%. For terminal
+09:09 
+
+09:09 growth rate, it's your long-term growth
+09:11 
+
+09:11 rate. Again, for a mature company, it's
+09:13 
+
+09:13 going to be very stable. So, we chose to
+09:14 
+
+09:14 leave it at 2%. So after we have all
+09:17 
+
+09:17 these inputs, we're going to go up here,
+09:19 
+
+09:19 find our projected cash flows. Our
+09:20 
+
+09:20 projected cash flows, as we talked about
+09:22 
+
+09:22 earlier, you just get your projected
+09:24 
+
+09:24 cash flows, you discount them, and the
+09:26 
+
+09:26 sum of your discounted present value is
+09:27 
+
+09:27 going to be your terminal value. And
+09:29 
+
+09:29 from this terminal value, um that you
+09:31 
+
+09:31 get over here, you get your enterprise
+09:34 
+
+09:34 value, which is essentially the value of
+09:36 
+
+09:36 your company as a whole. And um it's
+09:39 
+
+09:39 just the present value of the financial
+09:40 
+
+09:40 cash flows which you calculated down
+09:42 
+
+09:42 here 422 billion plus the terminal value
+09:44 
+
+09:44 which you calculated down there. And
+09:46 
+
+09:46 that's how much your company is worth.
+09:48 
+
+09:48 Uh then you find the equity value of
+09:50 
+
+09:50 that by finding your enterprise value
+09:52 
+
+09:52 plus your cash minus your debt. And you
+09:54 
+
+09:54 divide that by shares to get your price
+09:56 
+
+09:56 per share or your intrinsic value at $80
+09:58 
+
+09:58 per share. Um so now that we've talked
+10:01 
+
+10:01 about that, I kind of changed showed you
+10:04 
+
+10:04 how it changes. Like if I make my
+10:05 
+
+10:05 weighted average cost of capital 14%,
+10:07 
+
+10:07 the terminal values will obviously go up
+10:09 
+
+10:09 because the company is successing. Um if
+10:11 
+
+10:11 it's at 6%, the company's not really
+10:13 
+
+10:13 succeeding. So it's going to go down,
+10:15 
+
+10:15 right? Um we left it at 8%. I believe I
+10:19 
+
+10:19 chose change the standings to show you
+10:20 
+
+10:20 how it applied and how it changed your
+10:23 
+
+10:23 uh future projection. Uh let me just
+10:25 
+
+10:25 show how it changes up here. If we
+10:27 
+
+10:27 expect 15.5%, you know that the margin
+10:29 
+
+10:29 of safety isn't as good. So, I'm just
+10:32 
+
+10:32 going to change it back to 8% and
+10:33 
+
+10:33 explain the final feature on this, which
+10:35 
+
+10:35 is your sensitivity analysis. The
+10:37 
+
+10:37 sensitivity analysis again is the heat
+10:38 
+
+10:38 map of how you expect the company to do
+10:40 
+
+10:40 based on your weighted average cost
+10:42 
+
+10:42 capital and your growth rate. And it
+10:43 
+
+10:43 splits the difference with the two
+10:45 
+
+10:45 confidence intervals. So, the middle is
+10:46 
+
+10:46 your input and then it's plus two and
+10:48 
+
+10:48 minus two cuz that's a confidence
+10:49 
+
+10:49 interval. Uh, it estimates for three
+10:51 
+
+10:51 cases here, a bull case, a base case,
+10:53 
+
+10:53 and a bare case. The bull case is the
+10:55 
+
+10:55 best case scenario. The base case is the
+10:57 
+
+10:57 average scenario, which is what you
+10:59 
+
+10:59 predicted I guess. And then the bare
+11:01 
+
+11:01 case is the worst case scenario. And
+11:02 
+
+11:02 that's going to be highlighted by red on
+11:04 
+
+11:04 your matrices. And using that, you can
+11:06 
+
+11:06 kind of calculate your margin of safety,
+11:08 
+
+11:08 which will usually be your uh bare minus
+11:11 
+
+11:11 base divided by uh base. And that's how
+11:14 
+
+11:14 safe it is to invest in the stock. You
+11:16 
+
+11:16 usually want to invest in a stock with a
+11:18 
+
+11:18 green margin of safety. This one's red,
+11:20 
+
+11:20 so you wouldn't really invest in it. But
+11:22 
+
+11:22 we see that as growth rate goes up, um
+11:25 
+
+11:25 generally your company will make more
+11:27 
+
+11:27 money, which kind of makes sense. If
+11:28 
+
+11:28 your company is growing, you're going to
+11:29 
+
+11:29 make a lot more money. But this
+11:31 
+
+11:31 sensitivity analysis is really just to
+11:32 
+
+11:32 show how volatile your stock is compared
+11:34 
+
+11:34 to the market. Again, this is also very
+11:36 
+
+11:36 dependent on the inputs that we talked
+11:38 
+
+11:38 about earlier. If your beta is super
+11:39 
+
+11:39 low, your sensitivity analysis is going
+11:41 
+
+11:41 to stay pretty compact because your
+11:43 
+
+11:43 company isn't volatile with the market.
+11:44 
+
+11:44 In this case, with a beta of 1.20x, we
+11:47 
+
+11:47 know that well, the company is volatile
+11:49 
+
+11:49 to the market. So, if the market
+11:50 
+
+11:50 changes, then so will the cost of the
+11:52 
+
+11:52 stock. Um, so the sensitivity analysis
+11:54 
+
+11:54 is just a predictor. It's essentially
+11:56 
+
+11:56 just a confidence interval within a
+11:58 
+
+11:58 confidence interval.
